@@ -1,3 +1,5 @@
+//module practice
+
 import{countCharacter,capitalizeFirstCharacterOfWords,reverseWord,reverseAllWords,replaceFirstOccurence,encode} from './messageMixer';
 function displayMessage() {
   console.log(countCharacter("What is the color of the sky?", "t"));
