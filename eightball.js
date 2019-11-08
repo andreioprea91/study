@@ -1,3 +1,6 @@
+// playing with conditional statements in javascript
+
+
 let userName='Andrei';
 console.log(`USER:Salut, numele meu este ${userName}`)
 console.log(`EIGHTBALL: Salut ${userName}, care este intrebarea? `)
