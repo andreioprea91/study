@@ -6,7 +6,7 @@ const userQuestion='USER:Cum este vremea maine? ';
 console.log(userQuestion);
 const randomNumber= Math.floor(Math.random() * 8);
 let eightBall='';
-// using else if statement
+// using else if statements
 /* if (randomNumber===0) {
   eightBall='EIGHTBALL:insorit';
 } else if (randomNumber===1){
