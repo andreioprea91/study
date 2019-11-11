@@ -2,6 +2,10 @@
 const rock= document.getElementById("rock");
 const paper= document.getElementById("paper");
 const scissors= document.getElementById("scissors");
+let userScoreBoard=document.getElementById('userscore');
+let computerScoreBoard=document.getElementById('computerscore');
+let userScore=0;
+let computerScore=0;
 
 
 function getComputerChoice() {
@@ -22,10 +26,14 @@ function getComputerChoice() {
 
 function win(){
   console.log("win")
+  userScore++;
+  userScoreBoard.innerHTML=userScore;
 }
 
 function lose(){
   console.log("lose")
+  computerScore++;
+  computerScoreBoard.innerHTML=computerScore;
 }
 
 function draw(){
