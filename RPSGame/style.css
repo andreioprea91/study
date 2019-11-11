@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(backgroundimage.jpg);
+  background-size:cover;
+
+}
+#logo{
+  background-image: url(logo.png);
+  background-size:cover;
+  width: 800px;
+  height: 220px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 35px 15px / 35px 15px;
+}
+
+#rock,#paper,#scissors{
+  width: 140px;
+  height: 140px;
+}
+
+.humanchoice{
+
+  position: relative;
+  top: 410px;
+  left: 746px;
+
+}
+#user{
+  position: relative;
+  top: 270px;
+  left: 776px;
+  color:white;
+  font-size: 30px;
+  border: 1px hidden grey;
+  max-width: 140px;
+  padding-left: 12px;
+
+}
+#computer{
+  position: relative;
+  top: 235px;
+  left: 1015px;
+  color:white;
+  font-size: 30px;
+  border: 1px hidden grey;
+  max-width: 220px;
+  padding-left: 12px;
+
+}
+#computerscore{
+  position: relative;
+  top: 255px;
+  left: 1050px;
+  color:white;
+  font-size: 80px;
+  border: 1px solid grey;
+  max-width: 220px;
+  border-color: orange;
+
+}
+#userscore{
+  position: relative;
+  top: 255px;
+  left: 820px;
+  color:white;
+  font-size: 80px;
+  border: 1px solid grey;
+  max-width: 220px;
+  border-color: orange;
+
+
+}
