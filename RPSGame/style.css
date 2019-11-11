@@ -17,7 +17,7 @@ body{
   color:Orange;
   font-family: Impact;
   background-color: transparent;
-  border: solid;
+  //border: solid;
 }
 
 #rock,#paper,#scissors{
@@ -25,10 +25,6 @@ body{
   height: 140px;
 }
 
-.humanchoice{
-  margin-top: 180px;
-  margin-left:757px;
-}
 
 #user{
   text-align: right;
@@ -49,7 +45,7 @@ body{
   height: 50px;
   color:orange;
   font-size: 40px;
-  // border:solid ;
+   //border:solid ;
   margin-top: 259px;
 
 
@@ -74,10 +70,24 @@ margin-left: 94px;
   text-align:center;
   margin-top: 50px;
   padding-top:10px;
+}
 
+#result{
+font-size: 30px;
+color: Orange;
+font-weight:bold;
+margin-top: 57px;
+margin-left: 757px;
+width: 400px;
+height:100px;
 
+text-align: center;
 
+}
 
+.humanchoice{
+  margin-top: 5px;
+  margin-left:750px;
 
-
+  width: 500px;
 }
