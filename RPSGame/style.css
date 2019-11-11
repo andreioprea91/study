@@ -25,14 +25,13 @@ body{
   height: 140px;
 }
 
-
 #user{
   text-align: right;
   margin-left: 757px;
   padding-right: 15px;
 }
 
- #computer{
+#computer{
   text-align: left;
   margin-left: 94px;
   padding-left: 15px;
@@ -47,19 +46,17 @@ body{
   font-size: 40px;
    //border:solid ;
   margin-top: 259px;
-
-
 }
-#userscore{
-margin-left:757px
 
+#userscore{
+  margin-left:757px
 }
 
 #computerscore{
-margin-left: 94px;
+  margin-left: 94px;
 }
 
- .xz{
+.xz{
   display: inline-block;
   color:orange;
   font-size: 70px;
@@ -73,21 +70,18 @@ margin-left: 94px;
 }
 
 #result{
-font-size: 30px;
-color: Orange;
-font-weight:bold;
-margin-top: 57px;
-margin-left: 757px;
-width: 400px;
-height:100px;
-
-text-align: center;
-
+  font-size: 30px;
+  color: Orange;
+  font-weight:bold;
+  margin-top: 57px;
+  margin-left: 757px;
+  width: 400px;
+  height:100px;
+  text-align: center;
 }
 
 .humanchoice{
   margin-top: 5px;
   margin-left:750px;
-
   width: 500px;
 }
